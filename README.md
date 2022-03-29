@@ -2,9 +2,9 @@
 
 ## Members BSCS 3-2
 
-* Paul Kenneth Ilan
-* Karl Ducta
-* Augustine Lawrence Trumata
 * Dexter Alquisola
+* Karl Ducta
+* Paul Kenneth Ilan
+* Khim Razel Reyes
 * Karl Ingrame Rivas
-* KhimRazel Reyes
+* Augustine Lawrence Trumata
