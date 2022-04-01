@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class H : MonoBehaviour
+public class Hazard : MonoBehaviour
 {
     private Transform player;
      
