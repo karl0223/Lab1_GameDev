@@ -1922,6 +1922,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6485126014090828306, guid: c498f779ab1e11946afaf736f846592a, type: 3}
+      propertyPath: m_Name
+      value: ArmRight
+      objectReference: {fileID: 0}
+    - target: {fileID: 6485126014858766465, guid: c498f779ab1e11946afaf736f846592a, type: 3}
+      propertyPath: m_Name
+      value: bodyyy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6485126014960036108, guid: c498f779ab1e11946afaf736f846592a, type: 3}
+      propertyPath: m_Name
+      value: body
+      objectReference: {fileID: 0}
     - target: {fileID: 6485126015339184550, guid: c498f779ab1e11946afaf736f846592a, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1969,6 +1981,14 @@ PrefabInstance:
     - target: {fileID: 6485126015339184554, guid: c498f779ab1e11946afaf736f846592a, type: 3}
       propertyPath: m_Name
       value: Character
+      objectReference: {fileID: 0}
+    - target: {fileID: 6485126015757081048, guid: c498f779ab1e11946afaf736f846592a, type: 3}
+      propertyPath: m_Name
+      value: bodyy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6485126016067928555, guid: c498f779ab1e11946afaf736f846592a, type: 3}
+      propertyPath: m_Name
+      value: ArmLeft
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c498f779ab1e11946afaf736f846592a, type: 3}

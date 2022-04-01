@@ -803,6 +803,19 @@ MonoBehaviour:
   moveSpeed: 10
   rotationSpeed: 150
   jumpForce: 5
+  bodyy: {fileID: 6485126015757081045}
+  body: {fileID: 6485126014960036105}
+  bodyyy: {fileID: 6485126014858766466}
+  Face: {fileID: 6485126015782727335}
+  ArmRight: {fileID: 6485126014090829295}
+  ArmLeft: {fileID: 6485126016067928548}
+  Belt: {fileID: 6485126015572117151}
+  Pants: {fileID: 6485126015517597054}
+  Feet: {fileID: 6485126015266416148}
+  BeltSide: {fileID: 6485126015997167529}
+  RightHand: {fileID: 6485126014129331710}
+  LeftHand: {fileID: 6485126015027240539}
+  cubieFace: {fileID: 6485126014747384300}
 --- !u!1 &6485126015517597053
 GameObject:
   m_ObjectHideFlags: 0

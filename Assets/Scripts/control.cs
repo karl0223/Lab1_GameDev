@@ -7,6 +7,21 @@ public class control : MonoBehaviour
     [SerializeField] float moveSpeed;
     [SerializeField] float rotationSpeed;
     [SerializeField] float jumpForce;
+    public MeshRenderer bodyy;
+    public MeshRenderer body;
+    public MeshRenderer bodyyy;
+    public MeshRenderer Face;
+    public MeshRenderer ArmRight;
+    public MeshRenderer ArmLeft;
+    public MeshRenderer Belt;
+    public MeshRenderer Pants;
+    public MeshRenderer Feet;
+    public MeshRenderer BeltSide;
+    public MeshRenderer RightHand;
+    public MeshRenderer LeftHand;
+    public MeshRenderer cubieFace;
+
+
     private Rigidbody rb;
     private int jumpCount;
     // Start is called before the first frame update
