@@ -8,7 +8,7 @@ public class control : MonoBehaviour
     [SerializeField] float rotationSpeed;
     [SerializeField] float jumpForce;
     private Rigidbody rb;
-
+    private int jumpCount;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,10 +29,26 @@ public class control : MonoBehaviour
         //jump of the player
         if (Input.GetButtonDown("Jump"))
         {
+
+            Jump();
+        }
+    }
+    private void Jump()
+    {
+        jumpCount += 1;
+        if (jumpCount < 2)
+        {
             rb.AddForce(new Vector3(0, jumpForce, 0), ForceMode.Impulse);
         }
-
-
-
     }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        if(collision.gameObject.CompareTag("Platform"))
+        {
+            jumpCount = 0;
+        }
+    }
+
+   
 }
