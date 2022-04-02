@@ -10,7 +10,6 @@ public class Hazard : MonoBehaviour
     void Start()
     {
         player = GameObject.FindWithTag("Player").transform;
-
     }
 
     // Update is called once per frame
@@ -50,7 +49,7 @@ public class Hazard : MonoBehaviour
 
         //respawn
         player.transform.position = new Vector3(52, -96 , -28); 
-        player.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
+        player.transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0));
         player.GetComponent<MeshRenderer>().enabled = true;
         playerControls.ArmLeft.enabled = true;
         playerControls.ArmRight.enabled = true;
