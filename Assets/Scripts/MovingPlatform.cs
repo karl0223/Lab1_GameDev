@@ -26,8 +26,8 @@ public class MovingPlatform : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            GameObject player = collision.gameObject;
-            player.transform.SetParent(transform);
+            GameObject pl = collision.gameObject;
+            pl.transform.SetParent(transform);
         }
     }
 
@@ -36,8 +36,10 @@ public class MovingPlatform : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             GameObject player = collision.gameObject;
+
             player.transform.parent = null;
         }
+
     }
 
     IEnumerator AlterDir()
